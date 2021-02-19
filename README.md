@@ -7,10 +7,14 @@ in order to allow for debugging of the hosted runtime within a container.
 
 .NETCore CLI
 1. Navigate to the cloned project Directory.
-1. Run `dotnet run`
+2. change directory to the `\ProductApi\` directory
+3. Run `dotnet run`
 
-Tests can also be done in the same way by running `dotnet test` from the repo directory
+Tests can also be done in the same way by running `dotnet test` from the root level directory
 
-.Visual Studio 
-1. Build and Debug Targeting IISExpress
-1. Build and Debug Targeting Docker
+Visual Studio 
+* Build and Debug Targeting IISExpress
+OR
+* Build and Debug Targeting Docker
+
+Run against Docker or IIS express, then use your httpclient of choice to prod the project.
